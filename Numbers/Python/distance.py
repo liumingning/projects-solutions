@@ -2,6 +2,9 @@
 # Calculates the distance between two cities and allows the user to specify a unit of distance.
 # This program may require finding coordinates for the cities like latitude and longitude.
 
+# Requires pygeocoder: `pip install pygeocoder`
+# http://code.xster.net/pygeocoder/wiki/Home
+
 from pygeocoder import Geocoder
 from math import radians, cos, sin, asin, sqrt
 import sys
